@@ -8,7 +8,7 @@ export const getStaticProps = async () => {
   const data = await res.json();
   return {
     props: {
-      albums: data.slice(0, 50),
+      albums: data.slice(0, 20),
     },
   };
 };
