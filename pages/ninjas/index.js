@@ -21,7 +21,7 @@ const Ninjas = ({ ninjas }) => {
       <h1 className={styles.header}>ALL USERS</h1>
       <div className={styles.cards}>
         {ninjas.map((ninja) => (
-          <Link href={'/ninjas/' + ninja.id} key={ninja.id}>
+          <Link href={'/ninjas/' + ninja.id} key={ninja.id} passHref>
             <div className={styles.card} key={ninja.id}>
               <img className={styles.cardImage} src='/farmer.png' />
               <div className={styles.cardBody}>

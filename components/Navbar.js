@@ -16,9 +16,6 @@ const Navbar = () => {
       <Link href='/ninjas'>
         <a>LISTING</a>
       </Link>
-      <Link href='/photos'>
-        <a>PHOTOS</a>
-      </Link>
     </nav>
   );
 };
